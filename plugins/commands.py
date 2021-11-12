@@ -17,12 +17,12 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('🏷 Channel', url='https://telegram.dog/Mj_Linkz/'),
+                        InlineKeyboardButton('🏷 Channel', url='https://t.me/jarvishech'),
                         InlineKeyboardButton('Creator 🖥', url ='https://telegram.dog/MasterOfTG'),
                     ],
                     [
                         InlineKeyboardButton(
-                            "♻️ JOIN OUR GROUP ♻️", url="https://telegram.dog/MovieJunction_Group")
+                            "♻️ JOIN OUR GROUP ♻️", url="https://t.me/cinemaenglish123")
                     ]
                 ]
             ),
@@ -44,7 +44,7 @@ async def help(client, message):
                         InlineKeyboardButton("ABOUT 🚩", callback_data="about_data"),
                     ],
                     [
-                        InlineKeyboardButton("🔻 FEEDBACKS & SUGGESTIONS 🔻", url="https://telegram.dog/Mj_Chats")
+                        InlineKeyboardButton("🔻 FEEDBACKS & SUGGESTIONS 🔻", url="https://t.me/cinemaenglish123")
                    
                 ]     
                 ]
